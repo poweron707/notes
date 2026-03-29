@@ -6,12 +6,6 @@ Exported from: LM Studio 0.4.6+1
 ### System
 
 ### User
-hi
-
-### Assistant
-Hello! How can I help you today? 😊
-
-### User
 Design for a short-lived action token (15 min TTL) that operates within the existing login session. The action token auto-refreshes at the last 1 minute of validity. If the login session expires, all action tokens are invalidated. This ensures two-layer security: identity (login session) + activity (action token).
 
 ### Assistant
